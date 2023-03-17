@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link to QR Code Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Link to QR Code Converter</h1>
+    <form id="qr-form">
+        <label for="url">Enter the URL:</label>
+        <input type="text" id="url" name="url" placeholder="https://example.com" required>
+        <button type="submit">Generate QR Code</button>
+    </form>
+    <div id="qr-container">
+        <canvas id="qr-code"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
